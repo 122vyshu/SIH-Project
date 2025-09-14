@@ -1,0 +1,155 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #2597BE;
+    border: black;
+    text-decoration-color: white;
+    text-align: right;
+    line-height: 10px;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+
+.navbar a {
+
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    background: none;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-weight: bold;
+    border: none;
+    /* text-align: center; */
+}
+.a:hover
+{
+text-decoration: underline;
+color:white;
+}
+
+.navbar span {
+
+    position: relative;
+    top: 30px;
+    margin-right: 0px;
+    text-decoration: none;
+    color: black;
+    background: none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+    font-weight: normal;
+    border: none;
+}
+
+.content1 {
+height:200px;
+width: 100%;
+    display: flex;
+    gap:10px;
+   
+}
+
+.text {
+    font-weight: bold;
+    font-size: large;
+    /* width: 300px;
+    height: 200px; */
+}
+
+.image {
+    width: 500px;
+    height: 299px;
+    text-align: right;
+    /* position:absolute; */
+    margin-left:auto;
+    right:0;
+    transition:transform 0.3s ease;
+    border:2px solid black;
+    margin-top:50px;
+}
+.image:hover
+{
+    transform: scale(1.2);
+}
+.btn_one {
+    background-color: #25A5BE;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+.btn_one a
+{
+    color:white;
+    text-decoration:none ;
+}
+
+.btn_one:hover {
+    background-color: blue;
+}
+
+.content2 {
+    display: flex;
+    gap: 20px;
+    border: 5px black;
+    border-radius: 50%;
+    ;
+}
+
+.content2 div {
+    height: 100px;
+    width: 100px;
+    border: 5px black;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: light;
+    line-height: 15px;
+    margin-left: 10px;
+    display: inline-block
+}
+
+.content3 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    gap: 50px;
+
+}
+
+.content3 img {
+    width: 50px;
+    height: 50px;
+}
+
+.content4 {
+    display: flex;
+    gap: 50px;
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: large;
+}
+
+.content4 img {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.content5 {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: baseline;
+}
